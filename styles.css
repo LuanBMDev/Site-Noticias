@@ -1,0 +1,31 @@
+h1 {
+    color: #009B82;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5px;
+}
+
+.destaque {
+    background-color: #F0F8FF;
+    color: #0066CC;
+    border: 1px solid #009B82;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article:hover {
+    background-color: #f5f5f5;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #009B82;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
