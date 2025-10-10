@@ -1,5 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.5;
+    line-height: 1.6; 
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow-wrap: break-word; /* Quebra palavras longas para evitar overflow */
+    word-wrap: break-word;     /* Compatibilidade */
+    hyphens: auto;         
 }
 
 h1 {
@@ -32,7 +40,17 @@ article {
     padding: 10px;
     border-radius: 8px;
     margin: 10px 0px 10px 0px;
+    line-height: 1.6;   
+    overflow: visible;     
 }
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
 
 article:hover {
     background-color: #f5f5f5;
