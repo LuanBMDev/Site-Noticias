@@ -1,7 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 h1 {
     color: #009B82;
-    font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h2 {
+    color: #0066CC;
+    font-weight: bold;
 }
 
 p {
@@ -13,13 +21,22 @@ p {
 .destaque {
     background-color: #F0F8FF;
     color: #0066CC;
-    border: 1px solid #009B82;
+    border-left: 3px solid #009B82;
     padding: 10px;
     border-radius: 5px;
+    font-weight: 550;
+}
+
+article {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0px 10px 0px;
 }
 
 article:hover {
     background-color: #f5f5f5;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 
@@ -28,4 +45,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+header {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
 }
